@@ -1,7 +1,7 @@
 # Code your cash register here!
 class AmazonTransaction
 attr_accessor :total, :items, :discount
-def initialize(total, discount=20, items)
+def initialize(items, discount=20)
   @total = 0
   @items = []
   @discount
