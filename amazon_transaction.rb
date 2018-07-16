@@ -7,5 +7,3 @@ def initialize(items, price, discount=20)
   @discount
 end
 end
-
-initialize("Shoes", 20)
