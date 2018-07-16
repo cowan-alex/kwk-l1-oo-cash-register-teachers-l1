@@ -4,6 +4,6 @@ def AmazonTransaction
   amazon_transaction_with_discount.new
 end
 
-def ::new
+def initialize
   @total = 0
 end
